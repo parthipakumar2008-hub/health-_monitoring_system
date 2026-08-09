@@ -21,7 +21,7 @@ class Villages():
         while True :
             n=input("WHICH VILLAGE ARE YOU CHOOSING:")
             print()
-            if n.isdecimal(): #number 1
+            if n.isdecimal(): 
                 n=int(n)
                 choose.append(n)
                 break
